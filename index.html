@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Quiz Produto</title>
+	<link rel="stylesheet" href="styles.css">
+	<script type="text/javascript" src="script.js" defer></script>
+</head>
+<body>
+
+<div class="quiz">
+	<div class="questoes">
+		<div class="questao">
+			<div class="enunciado" id="primeira-questao">O que precisa, exatamente? 🤔</div>
+			<div class="alternativa" for="primeira-questao" valor="500" alt="Site">Um site para exibir informações e contato</div>
+			<div class="alternativa" for="primeira-questao" valor="300" alt="Landing Page">Uma landing page</div>
+			<div class="alternativa" for="primeira-questao" valor="500" alt="Programa desktop">Um programa desktop</div>
+			<div class="alternativa" for="primeira-questao" valor="500" alt="Aplicativo mobile">Um aplicativo mobile</div>
+		</div>
+
+		<div class="questao">
+			<div class="enunciado" id="segunda-questao">Você precisa de integração com outras plataformas? 🤔</div>
+			<div class="alternativa" for="segunda-questao" valor="250" alt="integração com outras plataformas">Sim, preciso salvar arquivos na nuvem ou banco de dados externo</div>
+			<div class="alternativa" for="segunda-questao">Não</div>
+		</div>
+
+		<div class="questao">
+			<div class="enunciado" id="terceira-questao">Você precisa de uma galeria? 🤔</div>
+			<div class="alternativa" for="terceira-questao" valor="50" alt="Galeria">Sim</div>
+			<div class="alternativa" for="terceira-questao">Não</div>
+		</div>
+
+		<div class="questao">
+			<div class="enunciado" id="quarta-questao">Você precisa de uma newsletter? 🤔</div>
+			<div class="alternativa" for="quarta-questao" valor="150" alt="Newsletter">Sim</div>
+			<div class="alternativa" for="quarta-questao">Não</div>
+		</div>
+
+		<div class="questao">
+			<div class="enunciado" id="quinta-questao">Você precisa de quantas páginas, mais ou menos? 🤔</div>
+			<div class="alternativa" for="quinta-questao" valor="0" alt="Poucas páginas">Entre 1 e 3</div>
+			<div class="alternativa" for="quinta-questao" valor="150" alt="Quantidade média de páginas">Entre 2 e 5</div>
+			<div class="alternativa" for="quinta-questao" valor="250" alt="Muitas páginas">Mais de 5</div>
+		</div>
+
+		<div class="questao">
+			<div class="enunciado" id="sexta-questao">Você precisa de uma seção para o usuário, com registro, login e outras funcionalidades semelhantes? 🤔</div>
+			<div class="alternativa" for="sexta-questao" valor="500" alt="Seção para usuário">Sim</div>
+			<div class="alternativa" for="sexta-questao">Não</div>
+		</div>
+
+		<div class="questao">
+			<div class="enunciado" id="setima-questao">Você precisa de um blog? 🤔</div>
+			<div class="alternativa" for="setima-questao" valor="500" alt="Blog">Sim</div>
+			<div class="alternativa" for="setima-questao">Não</div>
+		</div>
+
+		<div class="questao">
+			<div class="enunciado" id="oitava-questao">Pretende realizar vendas? 🤔</div>
+			<div class="alternativa" for="oitava-questao" valor="750" alt="E-commerce">Sim</div>
+			<div class="alternativa" for="oitava-questao">Não</div>
+		</div>
+
+		<div class="questao">
+			<div class="enunciado" id="nona-questao">Precisa de um chatbot para atendimento ao cliente? 🤔</div>
+			<div class="alternativa" for="nona-questao" valor="300" alt="Chatbot">Sim</div>
+			<div class="alternativa" for="nona-questao">Não</div>
+		</div>
+
+		<div class="questao">
+			<div class="enunciado" id="decima-questao">Precisa de um quiz ou calculadora como esta? 🤔</div>
+			<div class="alternativa" for="decima-questao" valor="150" alt="Quiz ou calculadora">Sim</div>
+			<div class="alternativa" for="decima-questao">Não</div>
+		</div>
+
+		<div class="questao">
+			<div class="enunciado" id="decima-primeira-questao">Você precisa de um jogo? 🤔</div>
+			<div class="alternativa" for="decima-primeira-questao" valor="1000" alt="Jogo">Sim</div>
+			<div class="alternativa" for="decima-primeira-questao">Não</div>
+		</div>
+	</div>
+
+	<div class="resultado hide">
+		<h2>Resultado</h2>
+		<p></p>
+	</div>
+
+	<button id="btnProximaQuestao">Próxima</button>
+	<button id="btnVerResultado" class="hide">Ver resultado</button>
+</div>
+</body>
+</html>

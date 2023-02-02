@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+.alternativa {
+	background-color: #f9e5c0;
+	color: #2c171c;
+	padding: 2rem;
+	cursor: pointer;
+	font-size: 1.5rem;
+	border-radius: 1rem;
+}
+
+.alternativa:hover {
+	background-color: #ff667c;
+	color: #fff;
+}
+
+.letra-alternativa {
+	font-weight: bolder;
+	color: #2c171c;
+}
+
+.escolhida {
+	background-color: #b6d0a0;
+	color: #fff;
+}
+
+.enunciado {
+	margin: 1rem 0 1rem 0;
+	font-weight: bolder;
+	color: #2c171c;
+	font-size: 1.75rem;
+}
+
+.hide {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+	padding: 1.5rem;
+	margin: 1rem 0 1rem 0;
+	border: none;
+	font-size: 1.5rem;
+	border-radius: 1rem;
+}
+
+button:hover {
+	opacity: .75;
+}
+
+#btnProximaQuestao {
+	background-color: #b6d0a0;
+	color: #2c171c;
+}
+
+#btnVerResultado {
+	background-color: #ff667c;
+	color: #fff
+}
+
+.questoes, .resultado {
+	background-color: #f9e5c0;
+	padding: 1rem;
+	border-radius: 1rem;
+}
+
+.resultado h2 {
+	color: #2c171c;
+}
